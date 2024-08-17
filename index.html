@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="theme.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -57,22 +58,24 @@
         </nav>
     </div>
     <div class="header">
-        <div class="top">
+        <div class="upper-header">
             <div class="search">
                 <img src="images/magnify.svg" alt="search icon">
-                <input type="text" classs="search-bar">
+                <input type="text" id="search-bar">
             </div>
             <div class="profile">
                 <img src="images/bell-ring-outline.svg" alt="notification icon">
-                <img src="images/account-circle-outline.svg" alt="profile picture">
-                <h5>Aaron Pang</h5>
+                <img src="images/pfp.jpg" alt="profile picture">
+                <h4>Aaron Pang</h4>
             </div>
         </div>
-        <div class="bottom">
+        <div class="lower-header">
             <div class="profile">
-                <img src="images/account-circle-outline.svg" alt="profile picture">
-                <p>Hi there,</p>
-                <h3>Aaron Pang (@aaron)</h3>
+                <img src="images/pfp.jpg" alt="profile picture">
+                <div class="username">
+                    <p>Hi there,</p>
+                    <h3>Aaron Pang (@aaron)</h3>
+                </div>
             </div>
             <div class="button-container">
                 <button id="new">New</button>
@@ -81,6 +84,150 @@
             </div>
         </div>
     </div>
-    <div class="project-container"></div>
+    <div class="main">
+        <div class="main-container">
+            <h3 class="subheading">Your Projects</h4>
+            <div class="project-container">
+                <div class="project">
+                    <div class="text-content">
+                        <h4>Innovative Design</h4>
+                        <p>Quisque viverra nunc nec libero faucibus, vitae ultricies felis hendrerit. Proin sagittis magna at auctor facilisis.</p>
+                    </div>
+                    <div class="icons">
+                        <img src="images/star-plus-outline.svg" alt="star icon">
+                        <img src="images/eye-plus-outline.svg" alt="eye icon">
+                        <img src="images/source-fork.svg" alt="fork icon">
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="text-content">
+                        <h4>Advanced Analytics</h4>
+                        <p>Aliquam erat volutpat. Morbi nec urna magna. Ut euismod metus vel ex pretium, sed eleifend ligula vehicula.</p>
+                    </div>
+                    <div class="icons">
+                        <img src="images/star-plus-outline.svg" alt="star icon">
+                        <img src="images/eye-plus-outline.svg" alt="eye icon">
+                        <img src="images/source-fork.svg" alt="fork icon">
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="text-content">
+                        <h4>Efficient Workflow</h4>
+                        <p>Nam aliquet arcu sed dui sollicitudin, nec dictum tortor gravida. Integer non consequat metus, at posuere sem.</p>
+                    </div>
+                    <div class="icons">
+                        <img src="images/star-plus-outline.svg" alt="star icon">
+                        <img src="images/eye-plus-outline.svg" alt="eye icon">
+                        <img src="images/source-fork.svg" alt="fork icon">
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="text-content">
+                        <h4>Next-Gen Technology</h4>
+                        <p>Donec tincidunt urna non magna egestas, sed scelerisque libero tristique. Vivamus convallis nisi at sapien tempus.</p>
+                    </div>
+                    <div class="icons">
+                        <img src="images/star-plus-outline.svg" alt="star icon">
+                        <img src="images/eye-plus-outline.svg" alt="eye icon">
+                        <img src="images/source-fork.svg" alt="fork icon">
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="text-content">
+                        <h4>Dynamic User Experience</h4>
+                        <p>Integer consectetur augue non erat lacinia, sit amet gravida est cursus. Aliquam in urna a libero efficitur venenatis.</p>
+                    </div>
+                    <div class="icons">
+                        <img src="images/star-plus-outline.svg" alt="star icon">
+                        <img src="images/eye-plus-outline.svg" alt="eye icon">
+                        <img src="images/source-fork.svg" alt="fork icon">
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="text-content">
+                        <h4>Robust Security</h4>
+                        <p>Suspendisse potenti. Nulla facilisi. Cras fringilla mauris sit amet orci ullamcorper, ac vestibulum magna lacinia.</p>
+                    </div>
+                    <div class="icons">
+                        <img src="images/star-plus-outline.svg" alt="star icon">
+                        <img src="images/eye-plus-outline.svg" alt="eye icon">
+                        <img src="images/source-fork.svg" alt="fork icon">
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="text-content">
+                        <h4>Seamless Integration</h4>
+                        <p>Proin auctor ligula sed lacus imperdiet, eu vulputate nulla rhoncus. Pellentesque habitant morbi tristique senectus.</p>
+                    </div>
+                    <div class="icons">
+                        <img src="images/star-plus-outline.svg" alt="star icon">
+                        <img src="images/eye-plus-outline.svg" alt="eye icon">
+                        <img src="images/source-fork.svg" alt="fork icon">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="main-sidebar">
+            <div class="announcements">
+                <h3 class="subheading">Announcements</h4>
+                <div class="announcement-container">
+                    <div class="announcement">
+                        <h6>Site Maintenance</h5>
+                        <p>Vestibulum condimentum tellus lacus, in accusan elit maximus ac. Donec hendrent sodales couge...</p>
+                    </div>
+                    <div class="announcement">
+                        <h5>Site Maintenance</h5>
+                        <p>Curabitur vulputate urna non nisi lacinia, eu congue lorem feugiat. Aliquam erat volutpat, sit amet egestas dui feugiat. Suspendisse potenti. Praesent interdum sapien vel lectus facilisis, id elementum nunc fringilla...</p>
+                    </div>
+                    <div class="announcement">
+                        <h5>Site Maintenance</h5>
+                        <p>Nunc auctor ante sit amet malesuada pretium, eget vestibulum lacus condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <h3 class="subheading">Trending</h4>
+                <div class="trending-container">
+                    <div class="profile">
+                        <img src="images/account-circle-outline.svg" alt="pfp">
+                        <div class="username">
+                            <h6>@teagan</h6>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <img src="images/account-circle-outline.svg" alt="pfp">
+                        <div class="username">
+                            <h6>@morgan</h6>
+                            <p>Super Cool Project</p>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <img src="images/account-circle-outline.svg" alt="pfp">
+                        <div class="username">
+                            <h6>@kendall</h6>
+                            <p>Life Changing App</p>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <img src="images/account-circle-outline.svg" alt="pfp">
+                        <div class="username">
+                            <h6>@alex</h6>
+                            <p>No Traffic Maker</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
